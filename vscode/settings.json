@@ -1,0 +1,24 @@
+{
+    "rust.rustLangSrcPath": "C:/Users/sam/.rustup/toolchains/nightly-x86_64-pc-windows-msvc/lib/rustlib/src/rust/src",
+    "rust.rls": {
+        "executable": "rustup",
+        "args": [
+            "run",
+            "nightly",
+            "rls"
+        ],
+        "env": {
+            "RUST_LOG": "rls=debug"
+        }
+    },
+    "editor.formatOnSave": true,
+    "rust.rustfmtPath": "C:/Users/sam/.cargo/bin/rustfmt.exe",
+    "rust.rustsymPath": "C:/Users/sam/.cargo/bin/rustsys.exe",
+    "rust.racerPath": "C:/Users/sam/.cargo/bin/racer.exe",
+    "debug.allowBreakpointsEverywhere": true,
+    "rust.mode": "rls",
+    "rust.rustup": {
+        "toolchain": "nightly-x86_64-pc-windows-msvc"
+    },
+    "rust.actionOnSave": "check"
+}
